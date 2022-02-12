@@ -1,0 +1,48 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"oes"},
+{"type":"table","name":"course_details","database":"oes","data":
+[
+{"course_name":"APPTITUDE","time":"00:30:00","course_no":"33","date_of_creation":"2018-03-23 11:35:02","hide":"0","total_question":"9","question_mark":"2"},
+{"course_name":"COMPUTER","time":"00:00:45","course_no":"34","date_of_creation":"2018-03-22 22:48:03","hide":"0","total_question":"6","question_mark":"0"},
+{"course_name":"MATHS","time":"00:00:30","course_no":"32","date_of_creation":"2018-01-30 19:55:19","hide":"1","total_question":"8","question_mark":"4"}
+]
+}
+,{"type":"table","name":"questions","database":"oes","data":
+[
+{"q_id":"Ap1","q_statement":"what 3% of 5% is?","option_1":"60%","option_2":"30%","option_3":"15%","option_4":"45%","correct_option":"2","course_name":"APPTITUDE"},
+{"q_id":"AP2","q_statement":"In how many ways the letter ‘SOLVING’ can be\nrearranged to make 7 letter words such that none\nof the letters repeat?","option_1":"49","option_2":"5040","option_3":"7670","option_4":"None of the above","correct_option":"2","course_name":"APPTITUDE"},
+{"q_id":"AP3","q_statement":"What is the missing letter in this series?\n  b e h k n ? t","option_1":"q","option_2":"r","option_3":"s","option_4":"u","correct_option":"2","course_name":"APPTITUDE"},
+{"q_id":"AP4","q_statement":"The average age of a group of 5 students was 10.The \naverage age increased by 4 years when 2 new \nstudents joined the group.What is the average age of \nthe two new students who joined the group?","option_1":"15","option_2":"20","option_3":"22","option_4":"24","correct_option":"4","course_name":"APPTITUDE"},
+{"q_id":"AP5","q_statement":"If you unscramble the letters YKANE, you will get the \nname of a:","option_1":"Mountain Pass","option_2":"Warrior","option_3":"Flower","option_4":"Country","correct_option":"4","course_name":"APPTITUDE"},
+{"q_id":"AP6","q_statement":"3 is 80% of what number?","option_1":"2.50","option_2":"3.00","option_3":"3.75","option_4":"3.50","correct_option":"3","course_name":"APPTITUDE"},
+{"q_id":"AP7","q_statement":"In an equation, (96)^(1\/2) ÷ (k)^(1\/2) = 2*(6)^(1\/2);\nwhat value of k will satisfy the equation?","option_1":"2","option_2":"4","option_3":"6","option_4":"8","correct_option":"2","course_name":"APPTITUDE"},
+{"q_id":"AP8","q_statement":"To the correct number of significant figures, \n(5.0 x 10^-5) ÷ (2.00 x 10^-2) is?","option_1":"2.5X10^-7","option_2":"2.5X10^-3","option_3":"2.50X10^-3","option_4":"None of the above","correct_option":"2","course_name":"APPTITUDE"},
+{"q_id":"AP9","q_statement":"The product of 3×2 matrix and 2×3 matrix will result \nin what order matrix?","option_1":"3x2","option_2":"2x2","option_3":"2x3","option_4":"3x3","correct_option":"4","course_name":"APPTITUDE"},
+{"q_id":"CM1","q_statement":"Who is the father of personal computer?","option_1":"IBM","option_2":"APPLE","option_3":"MS","option_4":"NONE OF THESE","correct_option":"1","course_name":"COMPUTER"},
+{"q_id":"CM2","q_statement":"Which is the first electronic digital computer? ","option_1":"ENIAC","option_2":"MARK1 ","option_3":"Z3","option_4":"iCOM","correct_option":"1","course_name":"COMPUTER"},
+{"q_id":"CM3","q_statement":"IC chips used in computer are usually made of?\t\t","option_1":"Lead","option_2":"Silicon","option_3":"Gold","option_4":"Silver","correct_option":"2","course_name":"COMPUTER"},
+{"q_id":"CM4","q_statement":"INDIA's first supercomputer PARAM 8000 was installed in ??","option_1":"1990","option_2":"1991","option_3":"1992","option_4":"1993","correct_option":"1","course_name":"COMPUTER"},
+{"q_id":"CM5","q_statement":"The CPU's ALU contains:","option_1":"RAM Spaces","option_2":"Registers","option_3":"Byte Spaces","option_4":"Secondary Storage spaces","correct_option":"2","course_name":"COMPUTER"},
+{"q_id":"CM6","q_statement":"Which is example of recursion : ","option_1":"void func(){return func();}","option_2":"String func(){return \"func()\";}","option_3":"int func(){return 1;}","option_4":"None","correct_option":"1","course_name":"COMPUTER"},
+{"q_id":"MQ1","q_statement":"What is the unit digit in the product \nof (3547)^153 * (251)^72  ?","option_1":"1","option_2":"3","option_3":"7","option_4":"5","correct_option":"3","course_name":"MATHS"},
+{"q_id":"MQ2","q_statement":"What is the remainder when 2^31 is divided by 5 ?","option_1":"1","option_2":"2","option_3":"3","option_4":"4","correct_option":"3","course_name":"MATHS"},
+{"q_id":"MQ3","q_statement":"The H.C.F of 1.75 , 5.6 , 7 is :  ","option_1":"0.07","option_2":"0.7","option_3":"3.5","option_4":"0.35","correct_option":"4","course_name":"MATHS"},
+{"q_id":"MQ4","q_statement":"Three numbers are in ratio 1:2:3 and their HCF is 12.\nThe numbers are : ","option_1":"4,8,12","option_2":"5,10,15","option_3":"10,20,30","option_4":"12,24,36","correct_option":"4","course_name":"MATHS"},
+{"q_id":"MQ5","q_statement":"Two pipes A and B can fill a tank in 36 hours and 45 hours\nrespectively.If both the pipes are opened simultaneously,\nhow much time will be taken to fill the tank ? ","option_1":"20 hours","option_2":"25 hours","option_3":"18 hours","option_4":"22 hours","correct_option":"1","course_name":"MATHS"},
+{"q_id":"MQ6","q_statement":"A train running at a certain speed crosses a stationary\nengine in 20 seconds.To find out the speed of the train,\nwhich of the following information is necessary ?","option_1":"Only the length of the train","option_2":"Only the length of the engine","option_3":"Either the length of the train or the length of the engine","option_4":"Both the length of the train and the length of the engine","correct_option":"4","course_name":"MATHS"},
+{"q_id":"MQ7","q_statement":"If sin x + cosec x = 2,then find the value of\n(sin x)^7 + (cosec x)^7 ?","option_1":"1","option_2":"2","option_3":"0","option_4":"2^7","correct_option":"3","course_name":"MATHS"},
+{"q_id":"MQ8","q_statement":"On which of the point will the graph of x=3 and y=8 intersect\neach other ","option_1":"(0,0)","option_2":"(3,8)","option_3":"(8,3)","option_4":"(-3,-8)","correct_option":"2","course_name":"MATHS"}
+]
+}
+,{"type":"table","name":"result","database":"oes","data":
+[
+
+]
+}
+,{"type":"table","name":"userdetails","database":"oes","data":
+[
+
+]
+}
+]
